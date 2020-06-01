@@ -10,7 +10,7 @@ What's a spec?
 
 Scope of work for __your__ spec
 - You will NOT be required to produce such a full "proper" spec. My aim in having you write a (light) spec is purely to force you "think through" many part of your project __before__ you dive in. 
-- It's very likely that you will have to revise you spec frequently, which is fine! One major purpose of a "proper" spec, is to create a contract between the programmer(s) and their bosses/clients. That spec protect the programmer from any demands (or unfair criticisms) arising later. E.g. a client might complain that something is different than expected, and demand changes. With a proper spec, the programmer can go back and look what the spec demands. Granted there are grey areas in interpreting the specs, so it's good to be as precise as possible. Again, you are not writing a spec to protect you from later demands of your boss/client!
+- It's very likely that you will have to revise you spec frequently, which is fine! One major purpose of a "proper" spec, is to create a contract between the programmer(s) and their bosses/clients. That spec protects the programmer from any demands (or unfair criticisms) arising later. E.g. a client might complain that something is different than expected, and demand changes. With a proper spec, the programmer can go back and look what the spec demands. Granted there are grey areas in interpreting the specs, so it's good to be as precise as possible. Again, you are not writing a spec to protect you from later demands of your boss/client!
 - However, there's one aspect that we should try to keep an eye on: feature creep.
 
 

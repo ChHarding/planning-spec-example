@@ -1,13 +1,14 @@
-# Example of a HCI 584 project spec
+# Writing a (light) program specification document (spec)
+(Version after lecture 7 was held (Jun. 1, 2020)
+live version (in Markdown) at https://github.com/ChHarding/planning-spec-example
 
-Talk about where this doc will be!
 
 What's a spec?
--  A document that lays out (in some detail) how the project should(!) work. This includes a user centered part (use cases, vignettes, etc.) but also a technical part. It also distributes work across a team, lists milestones (what date? what deliverables?)
+-  A document that lays out (in some detail) how the project should(!) work. This includes a user centered part (use cases, vignettes, etc.) but also a technical part. It also distributes work across a team(who works on what parts?) and lists milestones (what date? what deliverables?)
 - there are many official, software engineering ways with rules for how to create a software spec. Example: https://blog.tara.ai/software-design-documents/ 
 
 
-Scope of __your__ work
+Scope of work for __your__ spec
 - You will NOT be required to produce such a full "proper" spec. My aim in having you write a (light) spec is purely to force you "think through" many part of your project __before__ you dive in. 
 - It's very likely that you will have to revise you spec frequently, which is fine! One major purpose of a "proper" spec, is to create a contract between the programmer(s) and their bosses/clients. That spec protect the programmer from any demands (or unfair criticisms) arising later. E.g. a client might complain that something is different than expected, and demand changes. With a proper spec, the programmer can go back and look what the spec demands. Granted there are grey areas in interpreting the specs, so it's good to be as precise as possible. Again, you are not writing a spec to protect you from later demands of your boss/client!
 - However, there's one aspect that we should try to keep an eye on: feature creep.
@@ -26,17 +27,21 @@ Developing "multi-stage" features
     - additional layers: if you can already see more functionality, write it down but clearly flag it it as additional (i.e. NOT core). This could be additional ways to perform the same task (Ex: add new user data from a file, via email, via API call) which you may want to implement later
 
 
-Exploring if/how something is technically feasible
+Exploring if/how something is technically feasible 
 - if possible, the spec should talk about technicalities (at a high level!) such as modules or APIs you may want to use. This does __not__ mean that you cannot implement a quick and dirty solution without the use of external code! 
 - If you can see a way to implement something with simple lists, dicts, loops, etc. - great! But, maybe you can already see that using a module will be easier,  e.g. maybe use pandas dataframes, instead of nested lists.
 - On the other hand, you should use this phase to poke around and find packages or APIs that you could potentially use. If available, fork/clone/download the package and run the tutorial or create a __very simple__ example. You should be about 75% sure that you will be able to use it. Writing code experiments is fine but resist the temptation to dig in too deep and to already start with the implementation. 
 - Put the results of your exploration into the spec and capture: what you __know__ it can do (i.e. you tried it yourself already on a very small scale) and b) what you __think__ it can do (i.e. what reading about it on the project home page or on stack overflow seems to indicate). Also add any caveats (seems complicated, not used by a lot of people, development abandoned, need X to work, requires free/pay dev license, etc.)
+- Resources:
+    - The HCI 584 Resources page on canvas (https://canvas.iastate.edu/courses/71242/pages/resources)
+    - https://pypi.org/ 
+    - 
 
 
 How do I know what features I need?
 - It's advised to work out the required features by looking at the needs of the user
 - Note: there is a hole sector of HCI and software development that deals with user centered design https://en.wikipedia.org/wiki/User-centered_design  
-- Although, running a full user centered design process is completely outside the scope of this course (for many reasons) we will try to incorporate a few elements, starting with looking at the future user and defining tasks and requirements.  While it would be nice to interface with proper users, interview them, design personas, etc. we simply don't have time for this. 
+- Although, running a full user centered design process is completely outside the scope of this course (for many reasons) we will try to incorporate a few elements, starting with looking at the user and defining tasks and requirements.  While it would be nice to interface with proper users, interview them, design personas, etc. we simply don't have time for this. 
 - Instead we will assume that you are the user and describe the task flow in a series of vignettes. This may/will include assuming expertise that you don't have, which is OK! Again, the aim is to make you think through the tasks and write down something concrete, thereby hopefully giving you confidence in your plan or revealing that you need to rethink some parts!
 
 
@@ -49,14 +54,15 @@ How do I know what features I need?
 - start with your sketch and enhance it.
 - should be about a half page (3 - 5 paragraphs) and introduce your project to a extend that outsiders, like you classmates, can get the gist of the project. 
 - Mention, if applicable, what external mechanisms (major packages, API, email, twitter, etc.) you will use
-- What GUI would it ideally use? Could it minimally run with a command line interface (CLI)
+- What GUI would it ideally use? Could it minimally run with a command line interface (CLI).
+- Could this also have a "remote" control, e.g. offer some form of API?
 
 
 ### Task Vignettes (User activity "flow") (4 pts)
 - For each major task write a short vignette that illustrates it. Again, it's OK to just assume a lot of things ... like that your user really needs to perform a task (although you don't actually know) or that the task will be performed magically (to be solved later).
 - The order of your task should make sense. It's OK to bundle several tasks into a vignette if they are naturally related 
 - I expect 1-3 paragraphs per vignette
-- After each vignetted, list technical details as bullet points. This includes anything that the user may not be aware of but that could be potentially impoertant for the implementation.
+- After each vignetted, list technical details as bullet points. This includes anything that the user may not be aware of but that could be potentially important for the implementation.
 
 - If you can, add crude design mockups or wire frames (hand drawn or simple power point diagrams) that capture the user interaction. You can re-use mockups created for the sketches. However, these are __not a must!__  For now just articulate what actions happen and what data flows where. 
 - You don't have to design a GUI for the spec, although for many that's a natural way to articulate the activity and you're welcome to use it as a "graphical language". Just know that for your version 1, you may actually end up implementing the data flow as a command line interface!
@@ -78,7 +84,7 @@ How do I know what features I need?
 - Note which blocks involve user interaction and of what kind (input? Output?)
 
 ### Final (self) assessment (1 pts)
-- After working through the spec what was the biggest most unexpected change to had to make?
+- After working through the spec what was the biggest most unexpected change to had to make from your sketch?
 - How confident do you feel that you can implement the spec as it's written right now?
 - What is the biggest potential problem that you NEED to solve (or you’ll fail)?
 - What parts are you least sure/familiar with?
@@ -168,3 +174,4 @@ def rotate_and_write_image(fname):
 
 ## Final notes
 - I'm working an example spec based on sketch.txt
+- This will be called `Chris_spec_example.md` and will be in the same folder as this doc

@@ -52,10 +52,11 @@ How do I know what features I need?
 
 ### General description of the project (2 pts)
 - start with your sketch and enhance it.
-- should be about a half page (3 - 5 paragraphs) and introduce your project to a extend that outsiders, like you classmates, can get the gist of the project. 
-- Mention, if applicable, what external mechanisms (major packages, API, email, twitter, etc.) you will use
-- What GUI would it ideally use? Could it minimally run with a command line interface (CLI).
-- Could this also have a "remote" control, e.g. offer some form of API?
+- The actual description (summary) should be about a half page (3 - 5 paragraphs) and introduce your project to a extend that outsiders, like you classmates, can get the gist of the project. 
+- Also:
+    - Mention, if applicable, what external mechanisms (major packages, API, email, twitter, etc.) you will use
+    - What GUI would it ideally use? Could it minimally run with a command line interface (CLI).
+    - Could this also have a "remote" control, e.g. offer some form of API?
 
 
 ### Task Vignettes (User activity "flow") (4 pts)

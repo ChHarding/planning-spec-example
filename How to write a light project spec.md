@@ -140,8 +140,8 @@ def rotate_and_write_image(fname):
     create PIL image from fname
     perform rotation by 180 degs on image
     try to save as fname + _r
-    on sucess return True
-    on error, ignore error and return False     
+        on sucess return True
+        on error, ignore error and return False     
     
 **** other function definitions go here - add those later ****
 

@@ -80,8 +80,8 @@ You're welcome to use it as a "graphical language".
 
 
 - I find it best to think in terms of data flow (i.e. input/output) but if you know OOP and plan to use it, you might do a bit of early class design here instead. (There will be a lecture on OOP soon)
-- Describe the overall “flow” of data, either with words (see example) and/or by creating a simple diagram on paper, with PowerPoint or with an online drawing app such as https://app.diagrams.net/ Or  do it on paper and hand in a snapshot of it.
-
+- Describe the overall “flow” of data, either with words (see example) and/or by creating a simple diagram on paper, with PowerPoint or with an online drawing app such as https://app.diagrams.net/ or https://draw.io Or  do it on paper and hand in a snapshot of it.
+ 
 
 - Jot down what blocks you think you’ll need and maybe try to group them into larger blocks.
 - Name the blocks by what they do (this will help with names for classes/functions/modules later!)

@@ -177,7 +177,3 @@ def rotate_and_write_image(fname):
  
 
 ```
-
-## Final notes
-- I'm working an example spec based on sketch.txt
-- This will be called `Chris_spec_example.md` and will be in the same folder as this doc

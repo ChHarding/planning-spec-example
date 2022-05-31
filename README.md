@@ -18,8 +18,7 @@ Example:
 - By default  the X most severe quakes (up to 100) from 1900 - present would be shown.
 - External:
     - Scrape data from USGS: https://earthquake.usgs.gov/fdsnws/event/1/ 
-    - Google Map type background map from Leaflet (via Folium: 
-    - Folium HTML https://python-visualization.github.io/folium/quickstart.html 
+    - Google Map type background map from Leaflet (via Folium HTML https://python-visualization.github.io/folium/quickstart.html 
     - Browser-based geolocation via geopy to have the app start at the user's current location (coordinates)
 - GUI: Web app (ideally mobile) using Flask but I would want to start with a jupyter notebook as I know that Folium works well with it. Later I would use Folium with Flask: https://python-visualization.github.io/folium/flask.html 
 - Possible enhancements: 

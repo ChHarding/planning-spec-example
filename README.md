@@ -138,6 +138,6 @@ Program flow:
 Example:
 - Realized that I had to be more precise with what needs to be in the core prototype and what are enhancements for later
 - I actually should not go for a Flask app right away, but instead implement anything outside the GUI in a jupyer notebook first and simulate the GUI user input by hardcoding first
-- I've done a similar Flak app before and have also used Bootstrap as GUI 
+- I've done a similar Flask app before and have also used Bootstrap as GUI 
 - I've not tried the geolocation module
 - Biggest anticipated problem: nicely dealing with the time needed to scrape new data, during which teh app is likely to freeze up(?) Should add a spinner.

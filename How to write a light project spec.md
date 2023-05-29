@@ -44,7 +44,7 @@
 - Put the results of your exploration into the spec and capture: a) what you already __know__ it can do (i.e. you tried it yourself already on a very small scale) and b) what you __think__ it can do (i.e. what reading about it on the project home page or on stack overflow seems to indicate)- Also add any caveats (seems complicated, not used by a lot of people, development abandoned, need X to work, requires free/pay dev license, etc.)
 - Resources:
     - The HCI 584 Resources page on the canvas home page 
-    - https://pypi.org/ 
+    - https://pypi.org/search/?q=&o=&c=Programming+Language+%3A%3A+Python+%3A%3A+3+%3A%3A+Only click on topic  
 
 ### How do I know what features I need?
 - It's advised to work out the required features by looking at the needs of the user

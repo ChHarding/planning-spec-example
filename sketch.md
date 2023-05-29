@@ -1,4 +1,4 @@
-### Example sketch for HCI 584 - Chris Harding May 31, 2020
+### Example sketch for HCI 584  
 
 This is an example of a student project for HCI 584. It will be used to illustrate its use in creating a project planning document (spec)
 

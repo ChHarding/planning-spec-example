@@ -1,24 +1,26 @@
 # Writing a (light) program specification document (spec)
-May 30, 2022
-live version (in Markdown) at https://github.com/ChHarding/planning-spec-example
+
+- live version (in Markdown) at https://github.com/ChHarding/planning-spec-example
+- example sketch (Earth quake activity app): https://github.com/ChHarding/planning-spec-example/blob/master/sketch.md
+- example planning spec for it: https://github.com/ChHarding/planning-spec-example/blob/master/How%20to%20write%20a%20light%20project%20spec.md
 
 
 ### What's a spec?
--  A document that lays out (in some detail) how the project should(!) work. This includes a user centered part (use cases, vignettes, etc.) but also a technical part. It also distributes work across a team(who works on what parts?) and lists milestones (what date? what deliverables?)
-- there are many official, software engineering ways with rules for how to create a software spec. Example: https://blog.tara.ai/software-design-documents/ 
+-  A document that lays out (in some detail) how the project should(!) work. This includes a user centered part (use cases, vignettes, etc.) but also a technical part. For bigger projects It also distributes work across a team (who works on what parts?) and lists milestones (what date? what deliverables?). For this light spec (for version 1 of your code) we'll skip milestones for now, but they will become rfelevant when you update your spec for version 2!
+- there are many official, software engineering ways with rules for how to create a software spec. Example: https://blog.tara.ai/software-design-documents/ (Note: this is for a commecial product but it has a (to my mind) concise summary of the process and typical parts. Some of these are overkill for our purpuse, but still worth knowing about.
 
 
 ### How will we use the spec?
 - You will write a light spec and I will give you feedback (HW)
 - You will start working on a version 1 prototype of your project based on your spec (again, I'll give you feedback)
-- It may become necessary to revise your spec
-- Based on the (possibly revised) spec and your experience with version 1, you will implement a version 2
+- It's likely that you will want to revise your spec based on your experience with version 1.
+- Based on the revised spec, you will implement a version 2. This will now include milestones.
 
 
 ### Scope of a light spec
 - You will NOT be required to produce such a full "proper" spec. My aim in having you write a __light__ spec is purely to force you "think through" many part of your project __before__ you dive in. 
 - One major purpose of a "proper" spec, is to create a contract between the programmer(s) and their bosses/clients. That spec protects the programmer from any demands (or unfair criticisms) arising later. E.g. a client might complain that something is different than expected, and demand changes. With a proper spec, the programmer can go back and look what the spec demands. Granted there are grey areas in interpreting the specs, so it's good to be as precise as possible. 
-However, for your spec it's very likely that you will have to revise your spec after you've done some coding, which is fine! Again, you are not writing a spec to protect you from later demands of your boss/client!
+- However, for your spec it's very likely that you will have to revise your spec after you've done some coding, which is fine!  Nobody expects you to write a perfect spec and stick to it on your first try!
 - But, there's one aspect that you should try to keep an eye on: feature creep.
 
 
@@ -29,7 +31,7 @@ However, for your spec it's very likely that you will have to revise your spec a
 
 
 ### Developing "multi-stage" features
-- in your spec, you should try to articulate what a feature does. E.g. Ability to add new users
+- in your spec, you should try to articulate what a feature does. E.g. _Ability to add new users_
 - If at all possible you should, at this stage, try to design multiple stages for this feature
     - minimal/core: what's the bare minimum that it must archive? This is the core, which should be your goal for version 1. (Ex: new user data will be entered by hand and stored locally)
     - additional layers: if you can already see more functionality, write it down but clearly flag it it as additional (i.e. NOT core). This could be additional ways to perform the same task (Ex: add new user data from a file, via email, via API call) which you may want to implement later
@@ -76,18 +78,15 @@ You're welcome to use it as a "graphical language".
 
 ### Technical "flow" (3 pts)
 - Now that you've described the user tasks and actions, you should look at the flow from a more technical side. Strictly speaking this goes deeper that a high-level spec would typically require, but I think it's a valuable exercise to go through before beginning to code!  
-- I realize that this may be tricky for you ... as usual, just do your best, I will reward demonstrated effort. A simple example is provided below
-
-
+- I realize that this may be tricky for you ... as usual, just do your best, I will reward demonstrated effort. Example in:  https://github.com/ChHarding/planning-spec-example/blob/master/How%20to%20write%20a%20light%20project%20spec.md
 - I find it best to think in terms of data flow (i.e. input/output) but if you know OOP and plan to use it, you might do a bit of early class design here instead. (There will be a lecture on OOP soon)
 - Describe the overall “flow” of data, either with words (see example) and/or by creating a simple diagram on paper, with PowerPoint or with an online drawing app such as https://app.diagrams.net/ or https://draw.io Or  do it on paper and hand in a snapshot of it.
- 
 
-- Jot down what blocks you think you’ll need and maybe try to group them into larger blocks.
-- Name the blocks by what they do (this will help with names for classes/functions/modules later!)
-- Use arrows to show which blocks need to generate/receive/exchange data (flow)
-- Separately jot down the types of the data in that flow (list, dictionary, array, compounds, classes?)
-- Note which blocks involve user interaction and of what kind (input? Output?)
+    - Jot down what blocks you think you’ll need and maybe try to group them into larger blocks.
+    - Name the blocks by what they do (this will help with names for classes/functions/modules later!)
+    - Use arrows to show which blocks need to generate/receive/exchange data (flow)
+    - Separately jot down the types of the data in that flow (list, dictionary, array, compounds, classes?)
+    - Note which blocks involve user interaction and of what kind (input? Output?)
 
 ### Final (self) assessment (1 pts)
 - After working through the spec, what was the biggest most unexpected change to had to make from your sketch?

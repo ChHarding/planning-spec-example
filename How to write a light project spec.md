@@ -41,7 +41,10 @@
 - if possible, the spec should talk about __technicalities__ (at a high level!), such as datatypes, modules or APIs you may want to use.  
 - If you can see a way to implement something with simple lists, dicts, loops, etc. - great! But, maybe you can already see that using a module will be easier,  e.g. maybe use pandas dataframes, instead of nested lists.
 - You should use this spec phase to poke around and find packages or APIs that you could potentially use. If available, fork/clone/download the package and run the tutorial or create a __very simple__ example. You should be about 75% sure that you will be able to use it. Writing code experiments is fine but resist the temptation to dig in too deep and to already start with the implementation. 
-- Put the results of your exploration into the spec and capture: a) what you already __know__ it can do (i.e. you tried it yourself already on a very small scale) and b) what you __think__ it can do (i.e. what reading about it on the project home page or on stack overflow seems to indicate)- Also add any caveats (seems complicated, not used by a lot of people, development abandoned, need X to work, requires free/pay dev license, etc.)
+- Put the results of your exploration into the spec and capture: 
+    -  a) what you already __know__ it can do (i.e. you tried it yourself already on a very small scale) and 
+    -  b) what you __think__ it can do (i.e. what reading about it on the project home page or on stack overflow seems to indicate) 
+    -  Also add any caveats (seems complicated, not used by a lot of people, development abandoned, need X to work, requires free/pay dev license, etc.)
 - Resources:
     - The HCI 584 Resources page on the canvas home page 
     - https://pypi.org/search/?q=&o=&c=Programming+Language+%3A%3A+Python+%3A%3A+3+%3A%3A+Only click on topic  

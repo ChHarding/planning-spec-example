@@ -1,5 +1,5 @@
 # planning-spec-example
-Example of a planning spec for HCI 584 based on sketch.md
+Example of a planning spec for HCI 584 based on the local earthquake activity app described in sketch.md
 
 
 ### General description of the project (2 pts)
